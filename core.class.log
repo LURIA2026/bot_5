@@ -1,0 +1,52 @@
+[handleMsg]:  {
+  key: MessageKey {
+    remoteJid: '51934689464-1622989895@g.us',
+    fromMe: false,
+    id: '3EB03F622FD4E3B462F7',
+    participant: '51958334476@s.whatsapp.net'
+  },
+  update: { pollUpdates: [ [Object] ] },
+  body: 'KPIs de exactitud de inventarios',
+  from: '51934689464-1622989895@g.us',
+  pushName: 'Giankro Cruz L.',
+  broadcast: false,
+  messageTimestamp: 1726060167,
+  voters: Message {
+    messageContextInfo: MessageContextInfo {
+      messageSecret: <Buffer 70 be 9a 9c 31 70 eb 72 c6 b8 9f 0c 34 83 e7 4d e4 cc 76 d1 6d b5 22 39 a3 1b b0 d1 79 d0 1e 10>
+    },
+    pollCreationMessageV3: PollCreationMessage {
+      options: [Array],
+      name: '*¿Qué tema te interesaría que fuese el próximo de nuestro Taller Gratuito?* 📊🧡',
+      selectableOptionsCount: 1
+    }
+  },
+  type: 'poll'
+}
+[ERROR ID (ans_fe3e9444-7676-4b93-a89a-afa2ffd3998e)]:  Error: Timed Out
+    at C:\Users\leopu\Documents\HTML\ARCHIVOS\bot_5\base-baileys-memory\node_modules\@whiskeysockets\baileys\lib\Utils\generics.js:136:32 {
+  data: {
+    stack: 'Error\n' +
+      '    at promiseTimeout (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\generics.js:131:19)\n' +
+      '    at waitForMessage (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:114:53)\n' +
+      '    at query (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\socket.js:136:22)\n' +
+      '    at getUSyncDevices (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\messages-send.js:166:30)\n' +
+      '    at C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\messages-send.js:355:53\n' +
+      '    at Object.transaction (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Utils\\auth-utils.js:136:32)\n' +
+      '    at relayMessage (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\messages-send.js:278:30)\n' +
+      '    at Object.sendMessage (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@whiskeysockets\\baileys\\lib\\Socket\\messages-send.js:649:23)\n' +
+      '    at async CoreClass.sendProviderAndSave (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@bot-whatsapp\\bot\\lib\\bundle.bot.cjs:1561:21)\n' +
+      '    at async Object.promiseInFunc (C:\\Users\\leopu\\Documents\\HTML\\ARCHIVOS\\bot_5\\base-baileys-memory\\node_modules\\@bot-whatsapp\\bot\\lib\\bundle.bot.cjs:1238:25)'
+  },
+  isBoom: true,
+  isServer: false,
+  output: {
+    statusCode: 408,
+    payload: {
+      statusCode: 408,
+      error: 'Request Time-out',
+      message: 'Timed Out'
+    },
+    headers: {}
+  }
+}
