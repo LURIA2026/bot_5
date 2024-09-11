@@ -1,0 +1,91 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '59172317021@s.whatsapp.net',
+    fromMe: false,
+    id: 'A062192BE5EF66D0DDD1AF4CEA2C9FF6',
+    participant: undefined
+  },
+  messageTimestamp: 1726079856,
+  pushName: 'Silvana',
+  broadcast: false,
+  messageStubType: 2,
+  messageStubParameters: [ 'Message absent from node' ],
+  body: undefined,
+  from: '59172317021'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '59172317021@s.whatsapp.net',
+    fromMe: false,
+    id: 'A062192BE5EF66D0DDD1AF4CEA2C9FF6',
+    participant: undefined
+  },
+  messageTimestamp: 1726079857,
+  pushName: 'Silvana',
+  broadcast: false,
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '59172317021'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1905af8c-7315-4d8f-adc6-2e808d8ae209',
+  keyword: 'key_bbf0268b-1d5a-4581-8563-7601914b6b8c',
+  answer: 'Hola como estas en que puedo ayudarte soy un asistente *Virtual* ',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 100,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2ad39ffd58be2379b92fb1bb92f96965'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '59172317021@s.whatsapp.net',
+    fromMe: false,
+    id: 'F371A499816CFD7FDF4C7AC00D9BB2D7',
+    participant: undefined
+  },
+  messageTimestamp: 1726079875,
+  pushName: 'Silvana',
+  broadcast: false,
+  message: Message {
+    conversation: 'QR',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'QR',
+  from: '59172317021'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_facdcac9-8ee1-437f-9787-2230b6ac031d',
+  keyword: 'key_d8ed9f7d-1a99-4ac6-8a4e-245ddc485fc0',
+  answer: 'Ahi le envio el *QR* ',
+  options: {
+    media: 'https://www.celag.org/wp-content/uploads/2019/04/bolivia-en-la-geopolitica-mundial-1536x864.jpg',
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 1000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'b0d686cadd8932c9d36333ded59898d8'
+}
